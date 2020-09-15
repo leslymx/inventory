@@ -2,7 +2,7 @@
 
 Download stable version JDK: https://www.oracle.com/technetwork/es/java/javase/downloads/index.html
 
-vscode extension: https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
+VSCode extension: https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
 
 ## Run app
 ```java

@@ -31,10 +31,10 @@ public class ProductStorage {
 
     public void updateElement(String code, int quantity) {
         try {
-            Product codigo = this.getMap().get(code);
-            codigo.setQuantity(quantity);
-            this.getMap().put(codigo.getCode(), codigo);
-            System.out.println(codigo.toString());
+            Product key = this.getMap().get(code);
+            key.setQuantity(quantity);
+            this.getMap().put(key.getCode(), key);
+            System.out.println(key.toString());
         }
         catch (NullPointerException e) {
             System.out.println("Error: No se pudo actualizar el producto " + e.getMessage());
